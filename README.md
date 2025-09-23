@@ -2,7 +2,7 @@
 
 This repository contains my personal portfolio website, built with **HTML, CSS, and JavaScript**, and hosted on **GitHub Pages**.
 
-👉 Live site: [srouhi.github.io](https://srouhi.github.io)
+👉 Live site: [srouhi.github.io](https://srouhi.github.io/PortfolioWebsite/)
 
 ## About Me
 I’m **Shaghayegh (Shay) Rouhi**, a Data Science student at the University of Nebraska–Lincoln with minors in Statistics, Mathematics, Computer Science, and Economics.  

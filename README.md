@@ -12,7 +12,8 @@ I enjoy working on **machine learning, predictive analytics, and web development
 - Projects & Experience showcase  
 - Resume & Research poster download  
 - Dark/Light mode toggle  
-- Live Central Time display  
+- Live Central Time display
+- Contact-me form
 
 ## Contact
 - [srouhi2@huskers.unl.edu](mailto:srouhi2@huskers.unl.edu)  

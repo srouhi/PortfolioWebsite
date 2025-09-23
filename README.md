@@ -16,7 +16,7 @@ I enjoy working on **machine learning, predictive analytics, and web development
 - Contact-me form
 
 ## Contact
-- [srouhi2@huskers.unl.edu](mailto:srouhi2@huskers.unl.edu)  
+- [Srouhi01@gmail.com](mailto:Srouhi01@gmail.com)  
 - [LinkedIn](https://www.linkedin.com/in/shaghayegh-rouhi)  
 - [GitHub](https://github.com/srouhi)  
 

@@ -5,8 +5,10 @@ This repository contains my personal portfolio website, built with **HTML, CSS, 
 👉 Live site: [srouhi.github.io](https://srouhi.github.io/PortfolioWebsite/)
 
 ## About Me
-I’m **Shaghayegh (Shay) Rouhi**, a Data Science student at the University of Nebraska–Lincoln with minors in Statistics, Mathematics, Computer Science, and Economics.  
-I enjoy working on **machine learning, predictive analytics, and web development**, and I love creating projects that connect data science with real-world applications.
+I’m **Shaghayegh (Shay) Rouhi**, a Data Scientist, passionate about building machine learning solutions that solve real world problems."
+
+My work spans computer vision, natural language processing, predictive modeling, and data analytics, with experience developing AI applications from research to deployment.Currently, I work at the Nebraska Department of Transportation, where I develop machine learning models, forecasting systems, and interactive analytical tools that support infrastructure planning and data-driven decision making.
+I enjoy combining statistical analysis, software engineering, and modern AI techniques to build solutions that are both technically robust and practical for end users. I'm always excited to learn new technologies, work on challenging problems, and collaborate on projects where data can make an impact.
 
 ## Features
 - Projects & Experience showcase  

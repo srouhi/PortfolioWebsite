@@ -1,6 +1,6 @@
 // Typewriter effect
 var i = 0;
-var txt = "Hi! I’m Shaghayegh Rouhi, but feel free to call me Shay. I’m currently studying Data Science at the University of Nebraska-Lincoln. Welcome to my portfolio website, feel free to explore my projects, experience, and connect with me!";
+var txt = "Hi, I'm Shaghayegh Rouhi—but almost everyone knows me as Shay. I'm a Data Scientist, passionate about building machine learning solutions that solve real world problems."
 var speed = 25;
 function typeWriter() {
     if (i < txt.length) {

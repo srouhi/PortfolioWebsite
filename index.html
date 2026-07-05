@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shaghayegh Rouhi (Shay) | Portfolio</title>
+        
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/scripts.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +23,7 @@
             <a href="https://github.com/srouhi" target="_blank">
                 <i style="font-size:24px" class="fa fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/shaghayegh-rouhi" target="_blank">
+            <a href="https://www.linkedin.com/in/shaghayegh-rouhi/" target="_blank">
                 <i style="font-size:24px" class="fa">&#xf08c;</i>
             </a>
             <a href="mailto:srouhi2@huskers.unl.edu">
@@ -106,11 +107,10 @@
         <!--sections-->
         <section id="about">
             <h2>About Me</h2>
-            <p> I’m Shaghayegh Rouhi, but I usually go by Shay. I’m currently pursuing a Bachelor's degree in Data Science at the University of Nebraska-Lincoln, with minors in Statistics, Mathematics, Computer Science, and Economics. I’m passionate about applying machine learning techniques to solve complex problems, particularly in areas like data modeling and predictive analytics. <br>
-                In addition to my academic work, I enjoy exploring web development as a way to bring my data science projects to life and create user-friendly solutions. I’m always excited to learn new technologies and enhance my skills to tackle real-world challenges.<br>
-                As I work toward my degree, I’ve had the opportunity to gain hands-on experience through various projects and internships, where I’ve honed my problem-solving, programming, and analytical skills. <br>
-                Feel free to explore my projects and reach out if you'd like to collaborate or learn more!</p>
-                
+            <p>
+            My work spans computer vision, natural language processing, predictive modeling, and data analytics, with experience developing AI applications from research to deployment.
+            Currently, I work at the Nebraska Department of Transportation, where I develop machine learning models, forecasting systems, and interactive analytical tools that support infrastructure planning and data-driven decision making.
+            I enjoy combining statistical analysis, software engineering, and modern AI techniques to build solutions that are both technically robust and practical for end users. I'm always excited to learn new technologies, work on challenging problems, and collaborate on projects where data can make an impact.</p>   
         </section>
     
         <section id="projects">
@@ -147,6 +147,19 @@
             </div>
 
             <!-- Project 2 -->
+            <button class="accordion">BananaBath | AI-Powered Interior Design Assistant</button>
+            <div class="panel">
+                <ul>
+                    <li>Designed and developed a full-stack AI-powered interior design assistant during the 24-hour CornHacks 2025 hackathon.</li>
+                    <li>Integrated Google's Gemini API to generate personalized interior design recommendations based on user preferences.</li>                    <li>Implemented Streamlit UI and hosted the app on Hugging Face Spaces for easy access by users.</li>
+                    <li>Built a Retrieval-Augmented Generation (RAG) pipeline that retrieves semantically similar design images using transformer-generated embeddings.</li>
+                    <li>Developed the frontend and backend using Flask, HTML, CSS, and JavaScript to create an interactive user experience.</li>
+                    <li>Completed the project within a 24-hour hackathon, demonstrating rapid prototyping, teamwork, and end-to-end AI application development.</li>
+                </ul>
+                <p>Check it out: <a href="https://github.com/srouhi" target="_blank">GitHub Repo</a></p>
+            </div>
+
+            <!-- Project 3 -->
             <button class="accordion">E-commerce Customer Churn Analysis & Dashboard</button>
             <div class="panel">
                 <ul>
@@ -157,7 +170,7 @@
                 <p>Check it out: <a href="https://github.com/srouhi" target="_blank">GitHub Repo</a></p>
             </div>
 
-            <!-- Existing Projects -->
+            <!--  Projects 4 -->
             <button class="accordion">ML- RealEstateXCounty</button>
             <div class="panel">
                 <p>This project applies machine learning to analyze whether smaller county assessor’s offices should rely on real estate data from larger counties or their own local data. The model uses features like square footage, number of bedrooms, and location to predict how long it takes for a property to sell.</p>
@@ -185,44 +198,68 @@
 
         </section>
 
-        <!--experience-->
+        <!--experiences-->
         <section id="experience">
-            <h2>Experience</h2>
-            
+            <h2>Experiences</h2>
+
             <div class="experience-item">
-                <h3>Nebraska Department of Transportation (NDOT), Lincoln, NE</h3>
+                <h3>Nebraska Department of Transportation (NDOT)</h3>
                 <p><strong>Data Scientist Intern</strong> | May 2024 – Present</p>
                 <ul>
-                    <li>Develop a Convolutional Neural Network (CNN) in PyTorch to detect sidewalks from geospatial imagery, supporting improvements in pedestrian safety infrastructure.</li>
-                    <li>Build a predictive statistical model using Multiple Linear Regression in R to forecast federal performance measures and improve mid-period reporting and target adjustment.</li>
-                    <li>Reimplement a snowplow performance study using R, Python, and GIS to evaluate efficiency during storms and determine resource needs.</li>
-                    <li>Create interactive Power BI and Tableau dashboards to help stakeholders track performance over time using data cleaning, analysis, and visualization skills.</li>
-                    <li>Conduct a validation study comparing AI-powered traffic cameras and traditional ATR sensors against manual counts, using statistical analysis to support investment decisions.</li>
+                    <li>
+                        Engineer a sidewalk semantic segmentation model using a U-Net architecture with a ResNet-34 encoder to identify pedestrian pathways from geospatial imagery; collaborate with cross-functional GIS teams to integrate model outputs into an internal infrastructure mapping tool.
+                    </li>
+                    <li>
+                        Develop a client facing financial scenario modeling tool in R Shiny to support executive stakeholders to evaluate funding scenarios, budget gaps, and support strategic resource planning decisions. 
+                    </li>
+                    <li>
+                        Create interactive and automated dashboards using PowerBI, Shiny, and Tableau for multiple projects, to allow stakeholders measure snow coverage, budget allocation, and other performance metrics over time.
+                    </li>
+                    <li>
+                        Conduct a validation and cost analysis comparing AI traffic cameras and traditional sensors against manual counts using statistical methods such as Wilcoxon Signed-rank test to determine the most cost-efficient and accurate method for traffic count
+                    </li>
+                    <li>
+                        Engineered a two-stage time-series forecasting pipeline for 4 critical transportation KPIs; utilized Multiple Linear Regression (MLR) for feature selection to identify key external drivers, integrating them as exogenous variables into an ARIMAX model to guide reliability target setting.
+                    </li>
                 </ul>
             </div>
 
             <div class="experience-item">
-                <h3>Undergraduate Research - Department of Mathematics, UNL</h3>
-                <p><strong>Undergraduate Research</strong> | September 2024 – Present</p>
+                <h3>University of Nebraska–Lincoln</h3>
+                <p><strong>Undergraduate Researcher – Department of Mathematics</strong> | Sep 2024 – Dec 2025</p>
                 <ul>
-                    <li>Develop a nonlocal deep neural network (DNN) training method replacing classical derivatives with integral operators, improving model accuracy and stability for discontinuous ReLU activations.</li>
-                    <li>Validate the proposed nonlocal DNN with multiple datasets and parameters in Python (NumPy, TensorFlow), demonstrating effectiveness of nonlocal methods.</li>
-                    <li>Achieve high accuracy in image recognition tasks using nonlocal operators.</li>
-                    <li>Supported by the UCARE program, resulting in a poster presentation at UNL Research Day.</li>
+                    <li>
+                        Developed a nonlocal Deep Neural Network (DNN) training method by replacing classical derivatives with integral operators, to improve robustness and stability of the training.
+                    </li>
+                    <li>
+                        Validated the proposed nonlocal DNN by performing case studies on multiple datasets and DNN parameters in Python (NumPy, TensorFlow), demonstrating the effectiveness of nonlocal methods.
+                    </li>
+
+                    <li>
+                        Supported by funding from Undergraduate Creative Activities and Research Experience (UCARE) program (September 2024 – May 2025), resulting in a poster presentation at UNL Research Day.
+                    </li>
                 </ul>
             </div>
 
             <div class="experience-item">
-                <h3>Microeconomics Learning Assistant & Tutor, Lincoln, NE</h3>
-                <p><strong>Learning Assistant (LA) & Tutoring</strong> | January 2024 – May 2024</p>
+                <h3>University of Nebraska–Lincoln</h3>
+                <p><strong>Microeconomics Learning Assistant & Tutor</strong> | Jan 2024 – May 2024</p>
                 <ul>
-                    <li>Held weekly review sessions and exam prep workshops for 20+ students, improving understanding of course material.</li>
-                    <li>Collaborated with professors to review course progress, grading, and student performance, applying organizational and teamwork skills.</li>
-                    <li>Assisted students via course platforms, email, and meetings to address concerns and improve engagement.</li>
+                    <li>
+                        Led weekly review and exam preparation sessions for 20+ students to improve course performance.
+                    </li>
+
+                    <li>
+                        Collaborated with instructors to review coursework, grading, and student progress.
+                    </li>
+
+                    <li>
+                        Provided academic support through tutoring sessions, email, and office hours.
+                    </li>
                 </ul>
             </div>
+
         </section>
-
 
         <!--research-->
         <section id="research">
@@ -289,47 +326,99 @@
             <div class="skills-category"> <br>
                 
                 <table>
-                <tr><td><h4>Programming Languages</h4></td></tr>
+                <tr><td><h4>Machine Learning & AI</h4></td></tr>
                 <tr>
                     <td>
-                    <div class="skills-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-                        <div class="skill">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 60px; height: 60px;" /> 
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="width: 60px; height: 60px;" /> 
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" style="width: 60px; height: 60px;" /> 
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" style="width: 60px; height: 60px;" /> 
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" style="width: 60px; height: 60px;"/> 
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" style="width: 60px; height: 60px;" /> 
-                        </div>
-                    </div>
-                    </td>
-                </tr>
+                        <div class="skills-row" style="display: flex; justify-content: center; flex-wrap: wrap; gap:20px;">
 
-                <tr><td><h4>Machine Learning Frameworks</h4></td></tr>
-                <tr>
-                    <td>
-                    <div class="skills-row"style="display: flex; justify-content: center; flex-wrap: wrap;">
-                        <div class="skill">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" style="width: 60px; height: 60px;" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" style="width: 60px; height: 60px;" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" style="width: 60px; height: 60px;" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                                alt="PyTorch" title="PyTorch" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                                alt="TensorFlow" title="TensorFlow" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                                alt="Scikit-Learn" title="Scikit-Learn" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy" title="NumPy" width="60" height="60">
+
                         </div>
-                    </div>
                     </td>
                 </tr>
                 
-                <tr><td><h4>Cloud Platforms</h4></td></tr>
+                <tr><td><h4>Programming Languages</h4></td></tr>
                 <tr>
                     <td>
-                    <div class="skills-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-                        <div class="skill">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" style="width: 60px; height: 60px;" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="Azure" style="width: 60px; height: 60px;" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="Azure SQL DB" style="width: 60px; height: 60px;" />
+                        <div class="skills-row" style="display:flex; justify-content:center; flex-wrap:wrap; gap:20px;">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" title="Python" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
+                                alt="R" title="R" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" title="JavaScript" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                alt="SQL" title="SQL" width="60" height="60">
+
                         </div>
-                    </div>
                     </td>
                 </tr>
+
+                <tr><td><h4>Cloud & DevOps</h4></td></tr>
+                <tr>
+                    <td>
+                        <div class="skills-row" style="display:flex; justify-content:center; flex-wrap:wrap; gap:20px;">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+                                alt="Azure" title="Azure" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuredevops/azuredevops-original.svg"
+                                alt="Azure DevOps" title="Azure DevOps" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                alt="Git" title="Git" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" title="GitHub" width="60" height="60">
+
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr><td><h4>Backend & APIs</h4></td></tr>
+                <tr>
+                    <td>
+                        <div class="skills-row" style="display:flex; justify-content:center; flex-wrap:wrap; gap:20px;">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+                                alt="FastAPI" title="FastAPI" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                                alt="Flask" title="Flask" width="60" height="60">
+
+                        </div>
+                    </td>
+                </tr>
+
+                <tr><td><h4>Data Visualization</h4></td></tr>
+                <tr>
+                    <td>
+                        <div class="skills-row" style="display:flex; justify-content:center; flex-wrap:wrap; gap:20px;">
+                            <!-- couldn't find logo of Powerbi and Tableau -->
+                            <img src="img/powerbi.png"
+                                alt="Power BI" title="Power BI" width="60" height="60">
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg"
+                                alt="Tableau" title="Tableau" width="60" height="60">
+
+                        </div>
+                    </td>
+                </tr>
+
                 </table>
 
             </div>
@@ -343,10 +432,10 @@
             <p>If you have any questions, want to collaborate, or just want to connect, feel free to reach out to me!</p>
             
             <div class="contact-info">
-              <p><strong>Email:</strong> <a href="mailto:srouhi2@huskers.unl.edu">srouhi2@huskers.unl.edu</a></p>
+              <p><strong>Email:</strong> <a href="mailto:srouhi01@gmail.com">srouhi01@gmail.com</a></p>
               <!--<p><strong>Phone:</strong> (531) 254-0519</p>-->
               <p><strong>GitHub:</strong> <a href="https://github.com/srouhi" target="_blank">github.com/srouhi</a></p>
-              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/Shay-shaghayegh-rouhi-aba3892a1" target="_blank">linkedin.com/Shay-shaghayegh-rouhi</a></p>
+              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shaghayegh-rouhi/" target="_blank">linkedin.com/in/shaghayegh-rouhi</a></p>
             </div>
           
             <!--link to Contact form page -->
@@ -357,7 +446,7 @@
           
         <!--footer-->
         <footer class="footer">
-            <p> Built From Scratch <span class="heart">&#10084;</span> &copy; 2025 Shaghayegh Rouhi ©</p>
+            <p> Built From Scratch <span class="heart">&#10084;</span> &copy; 2026 Shaghayegh Rouhi ©</p>
         </footer>
         <!--the light/dark mode js-->
         <script>
@@ -394,5 +483,4 @@
 
         <script src="js/scripts.js"></script>
     </body>
-
 </html>
